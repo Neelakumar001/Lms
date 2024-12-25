@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCase.SettingVehicle">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="VehicletestCase"/>
+          <include name="VehicletestCase8"/>
+          <include name="VehicletestCase7"/>
+          <include name="VehicletestCase6"/>
+          <include name="VehicletestCase2"/>
+          <include name="VehicletestCase1"/>
+        </methods>
+      </class> <!-- TestCase.SettingVehicle -->
+      <class name="TestCase.Model">
+        <methods>
+          <include name="ModelTestCase7"/>
+          <include name="ModelTestCase4"/>
+          <include name="browserOpen"/>
+          <include name="ModelTestCase6"/>
+          <include name="ModelTestCase3"/>
+          <include name="ModelTestCase5"/>
+          <include name="ModelTestCase2"/>
+          <include name="ModelTestCase1"/>
+          <include name="ModelTestCase8"/>
+        </methods>
+      </class> <!-- TestCase.Model -->
+      <class name="TestCase.VehicleClass">
+        <methods>
+          <include name="Testcase8"/>
+          <include name="browserOpen"/>
+        </methods>
+      </class> <!-- TestCase.VehicleClass -->
+      <class name="TestCase.Category">
+        <methods>
+          <include name="CategoryTestCase3"/>
+          <include name="browserOpen"/>
+          <include name="CategoryTestCase1"/>
+          <include name="CategoryTestCase4"/>
+          <include name="CategorynormalTestCase7"/>
+          <include name="CategorynormalTestCase"/>
+          <include name="CategorynormalTestCase6"/>
+          <include name="CategoryTestCase2"/>
+          <include name="CategorynormalTestCase5"/>
+        </methods>
+      </class> <!-- TestCase.Category -->
+      <class name="TestCase.Emission">
+        <methods>
+          <include name="emissoionTestCase3"/>
+          <include name="browserOpen"/>
+          <include name="emissoionTestCase1"/>
+          <include name="emissoionTestCase2"/>
+          <include name="emissoionTestCase7"/>
+          <include name="emissoionTestCase5"/>
+          <include name="emissoionTestCase6"/>
+          <include name="emissoionTestCase4"/>
+          <include name="emissoionTestCase8"/>
+        </methods>
+      </class> <!-- TestCase.Emission -->
+      <class name="TestCase.FuelType">
+        <methods>
+          <include name="FulTypeTestCase2"/>
+          <include name="FulTypeTestCase3"/>
+          <include name="FulTypeTestCase4"/>
+          <include name="browserOpen"/>
+          <include name="FulTypeTestCase6"/>
+          <include name="FulTypeTestCase7"/>
+          <include name="FulTypeTestCase8"/>
+          <include name="FulTypeTestCase1"/>
+          <include name="FulTypeTestCase5"/>
+        </methods>
+      </class> <!-- TestCase.FuelType -->
+      <class name="TestCase.Makes">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="MakesTestcase7"/>
+          <include name="Testcase8"/>
+          <include name="MakesTestcase3"/>
+          <include name="MakesTestcase6"/>
+          <include name="MakesTestcase5"/>
+          <include name="MakesTestcase2"/>
+          <include name="MakesTestcase1"/>
+          <include name="MakesTestcase4"/>
+        </methods>
+      </class> <!-- TestCase.Makes -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
